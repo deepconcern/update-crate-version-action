@@ -1,0 +1,12 @@
+name: "Update Crate Version"
+description: Updates Rust crate's Cargo.toml version field
+inputs:
+  path:
+    default: Cargo.toml
+    description: Path to the target TOML file to update
+  version:
+    description: Version to update to
+    required: true
+runs:
+  main: "index.js"
+  using: "node20"
