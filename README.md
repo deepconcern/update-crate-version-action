@@ -15,6 +15,8 @@ Path to the target TOML file to update. Default is `Cargo.toml`.
 
 ## Example usage
 
+```
 uses: deepconcern/update-crate-version-action@latest
 with:
-  version: 1.2.3
+    version: 1.2.3
+```
